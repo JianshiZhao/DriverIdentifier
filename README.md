@@ -1,5 +1,5 @@
 # DriverIdentifier
-This project is to identify drivers behavior from images and classify them.
+This project is to identify drivers behavior from images and classify them. To save memory and improve speed, image size is rescaled down from (640,480) to (160,120) and changed to gray scale. PCA implemented using truncated SVD further reduces the dimension of features from 19200 pixels to 50 eigen-images. The following shows the running result.
 
 Running Results:
 
